@@ -74,26 +74,34 @@ li{
 
 .Container{
   background-color: azure;
-  margin: 5px 10rem;
+  margin: 5px 0rem;
   padding: 10px;
 }
 .Menu-card{
+  margin-top: 10px;
   width: 150px;
   height:100px;
   display: flex;
   flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(209, 229, 229);
 }
 .Menu-card-ul{
   display: flex;
   flex-direction: column;
+  background-color: transparent;
+  box-shadow: 5px;
+  border-radius: 5px;
 }
 .Menu-card-li button{
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(190, 188, 188);
   background-color: transparent; 
   display: block;
   width: 100%;
   text-align: start;
+  font-weight: 600;
 }
 
 .Render-block{
