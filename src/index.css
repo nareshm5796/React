@@ -70,3 +70,32 @@ li{
     grid-template-columns: auto auto;
   }
 }
+
+
+.Container{
+  background-color: azure;
+  margin: 5px 10rem;
+  padding: 10px;
+}
+.Menu-card{
+  width: 150px;
+  height:100px;
+  display: flex;
+  flex-direction: column;
+}
+.Menu-card-ul{
+  display: flex;
+  flex-direction: column;
+}
+.Menu-card-li button{
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent; 
+  display: block;
+  width: 100%;
+  text-align: start;
+}
+
+.Render-block{
+  height: 450px;
+}

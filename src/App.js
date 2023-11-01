@@ -1,5 +1,6 @@
 import data from "./data"
 import Card from "./card"
+import Render1 from "./Render1";
 function App() { 
   return <div >
             <header>
@@ -17,6 +18,9 @@ function App() {
                   })
                 }
               </div>
+             <div className="Container">
+              <Render1/>
+              </div> 
           </div>
 }
 

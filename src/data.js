@@ -26,10 +26,10 @@ const data = [
 
     },
     {
-        "KEY" : "4",
-        "image":"https://b.zmtcdn.com/data/pictures/chains/1/19426001/d865a3cfabe60a8b1c0cd581d7e096be.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
-        "Name" : "Noodles",
-        "price" : "85"
+        "KEY" : "5",
+        "image":"https://www.indianveggiedelight.com/wp-content/uploads/2022/08/curd-rice-featured.jpg",
+        "Name" : "Curd Rice",
+        "price" : "115"
 
     }
 ]
