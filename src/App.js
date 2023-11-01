@@ -4,8 +4,9 @@ function App() {
   return <div >
             <header>
               <ul>
-                <li>Home</li>
-                <li>Contact</li>
+                <li><button className="menu-btn">Home</button></li>
+                <li><button className="menu-btn">Contact</button></li>
+                <li><button className="menu-btn">Help</button></li>
               </ul>
             </header>
               <div className="App">

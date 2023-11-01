@@ -7,7 +7,7 @@ function Card(props){
     };
     const removeitem =()=>{
         setcount(count-1);
-        if (count==0){
+        if (count===0){
             alert("add Item")
             setcount(0);
         }
