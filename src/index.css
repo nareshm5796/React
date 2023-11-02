@@ -76,6 +76,9 @@ li{
   background-color: azure;
   margin: 5px 0rem;
   padding: 10px;
+  height: 850px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 .Menu-card{
   margin-top: 10px;
@@ -83,8 +86,8 @@ li{
   height:100px;
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
-  border-radius: 5px;
+  /* border: 1px solid black;
+  border-radius: 5px; */
   background-color: rgb(209, 229, 229);
 }
 .Menu-card-ul{
@@ -104,6 +107,52 @@ li{
   font-weight: 600;
 }
 
-.Render-block{
-  height: 450px;
+
+.show-btn1{
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+ padding-top: 5rem; 
+}
+.Log-in-form{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5rem 2rem;
+  padding-top: 2rem;
+  box-shadow: 3px 3px 10px 10px #888888;
+}
+
+.Log-in-form h2{
+  margin-bottom: 1rem;
+}
+
+.Log-in-form input{
+  /* border: none; */
+  border-radius: 15px;
+  background-color:white;
+  margin: 5px 0px;
+  padding: 0px 15px;
+  font-weight: 600;
+  width: 250px;
+  height: 50px;
+}
+
+.log-in-btn button{
+  margin-top: 3rem;
+  border-radius: 10px;padding: 5px 15px;
+  transition: transform 0.1s;
+  font-weight: 600;
+  background-color: antiquewhite;
+}
+
+.log-in-btn button:hover{
+  transform: scale(1.05);
 }

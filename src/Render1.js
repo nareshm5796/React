@@ -6,8 +6,8 @@ function Render1(){
     }
     return<div className="Render-block">
         <h1>Conditional rendering.</h1>
-        <div>
-            <button onClick={handler}>{showdata ? "hide" : "show"}</button>
+        <div >
+            <button  className="show-btn1" onClick={handler}>{showdata ? "hide" : "show"}</button>
             { showdata && (
                 <div><Menu/></div>
             )}
