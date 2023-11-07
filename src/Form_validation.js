@@ -19,14 +19,14 @@ function Form_validation(){
             email:user_email,
             psw:user_password
         };
-        console.log(obj.name) 
+        // console.log(obj.name) 
         data.push(obj)
         console.log(data)
     };
     const submit=()=>{
         alert("Submited")
     };
-    console.log(data)
+    // console.log(data);
     return <div>
     <form onSubmit={formhandle}>
     <div className="Log-in-form">

@@ -2,6 +2,7 @@ import data from "./data"
 import Card from "./card"
 import Render1 from "./Render1";
 import Formvalidation from "./Form_validation"
+import Addining from "./Adding";
 function App() { 
   return <div >
             <header>
@@ -22,6 +23,9 @@ function App() {
              <div className="Container">
               <Render1/>
               <Formvalidation/>
+              <div>
+                <Addining/>
+              </div>
               </div> 
               
           </div>
